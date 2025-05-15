@@ -1,0 +1,7 @@
+#ifndef NFSP_COMMON_H
+#define NFSP_COMMON_H
+
+#define NFSP_PORT_DEFAULT 8443
+#define NFSP_CHUNK_SIZE   1024
+
+#endif
