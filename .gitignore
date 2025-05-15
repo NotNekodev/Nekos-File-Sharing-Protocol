@@ -1,0 +1,9 @@
+## Secruity ##
+certs/
+
+## Building ##
+build/
+
+## IDE ##
+.idea/
+compile_commands.json
