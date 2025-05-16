@@ -9,7 +9,12 @@
 #define NFSP_MAX_ERROR_MSG 256
 #define NFSP_MAX_PACKET    4096
 #define NFSP_HASH_SIZE     32
+#define NFSP_CHUNK_SIZE    4096
 
+#define NFSP_DEFAULT_PORT 8443
+
+#define NFSP_ERROR_FILE        0x01
+#define NFSP_MALFORMED_REQUEST 0x02
 typedef enum {
     NFSP_MSG_HELLO = 1,
     NFSP_MSG_FILE_REQUEST,

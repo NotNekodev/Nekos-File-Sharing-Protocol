@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -I../../include -Wall -Wextra -O2
+CFLAGS = -I../../include -Wall -Wextra -O0 -g
 LDFLAGS = -lssl -lcrypto
 
 SERVER_SRC := $(wildcard ../../src/server/*.c)

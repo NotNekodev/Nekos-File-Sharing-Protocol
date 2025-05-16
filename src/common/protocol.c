@@ -1,0 +1,1 @@
+// shit - Windows NT5 source code
